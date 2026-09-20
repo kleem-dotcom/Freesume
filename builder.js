@@ -38,7 +38,7 @@ function bindTopFields(){
 }
 function card(list,type){
   const configs={
-    experience:{title:"Job title",company:"Company",start:"Start",end:"End",desc:"What did you do?"},
+    experience:{title:"Position",company:"Company",start:"Start",end:"End",desc:"Work they did"},
     education:{title:"Degree / course",company:"School / university",start:"Start",end:"End",desc:"Details"},
     projects:{title:"Project name",company:"Link (optional)",start:"",end:"",desc:"What did you build or achieve?"}
   }[type];
